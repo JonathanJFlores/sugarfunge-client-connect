@@ -1,0 +1,1 @@
+pub const SUGARFUNGE_API: &'static str = "http://localhost:4000/";
