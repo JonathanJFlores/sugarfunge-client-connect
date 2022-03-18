@@ -1,11 +1,6 @@
 use serde_derive::{Deserialize, Serialize};
 use uuid::Uuid;
 use reqwest::{self, header::{HeaderMap}};
-// use wasm_bindgen::prelude::*;
-// use wasm_bindgen::JsCast;
-// use wasm_bindgen_futures::JsFuture;
-// use web_sys::{Request, RequestInit, RequestMode, Response, RequestCredentials};
-
 use log::*;
 
 

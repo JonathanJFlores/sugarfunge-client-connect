@@ -12,6 +12,7 @@ pub mod config;
 pub mod auth;
 pub mod user_model;
 mod login;
+mod token_model;
 mod dashboard;
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]

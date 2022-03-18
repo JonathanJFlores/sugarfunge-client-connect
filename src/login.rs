@@ -66,7 +66,9 @@ fn auth_setup(data: Option<auth::Auth>) {
         spawn_local(async move {
             let response = user_model::user_verify_seed(&access_token).await;
             match response {
-                Ok(_data) => {}
+                Ok(data) => {
+                    info!("verify_seed {:?}", data)
+                }
                 Err(_er) => {}
             }
         })
